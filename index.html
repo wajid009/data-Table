@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data table</title>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script>
+    $(document).ready(function (){
+        $("#mytable").dataTable();
+    })
+   </script>
+</head>
+<body>
+    <table id="mytable" class="table table-striped table-responsive">
+        <thead>
+          <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Father Name</th>
+            <th>Date of Birth</th>
+          </tr>  
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Wajid</td>
+                <td>Muhammad saddique</td>
+                <td>20-04-2004</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Majid</td>
+                <td>Muhammad saddique</td>
+                <td>12-06-2001</td>
+            </tr>
+                <tr>
+                <td>3</td>
+                <td>Hamza</td>
+                <td> Muhammad Arshad</td>
+                <td>06-03-2002</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Noman</td>
+                <td> Muhammad Aslam</td>
+                <td>03-05-1993</td>
+            </tr>
+                <tr>
+                <td>4</td>
+                <td>Abuhuraira</td>
+                <td> Muhammad Ashraf</td>
+                <td>07-08-2001</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Haider</td>
+                <td>Muhammad Afzal</td>
+                <td>20-05-2005</td>
+            </tr>
+                <tr>
+                <td>7</td>
+                <td>Shahid</td>
+                <td> Muhammadsaleem</td>
+                <td>01-09-2004</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Naeem</td>
+                <td> Muhammad nabeel</td>
+                <td>07-04-2003</td>
+            </tr>
+                <tr>
+                <td>9</td>
+                <td>Wahab</td>
+                <td> Muhammad Ashiq</td>
+                <td>04-06-2006</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>zaman</td>
+                <td> Muhammad iqbal</td>
+                <td>03-07-1995</td>
+            </tr>
+                <tr>
+                <td>11</td>
+                <td>zeshan</td>
+                <td>Muhammad iqbal</td>
+                <td>03-08-1988</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Ahsan</td>
+                <td> Muhammad Azam</td>
+                <td>02-07-2007</td>
+            </tr>
+                <tr>
+                <td>13</td>
+                <td>Arham</td>
+                <td> Muhammad naveed</td>
+                <td>06-08-2001</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Minahil</td>
+                <td> Muhammad mubarak</td>
+                <td>07-03-2006</td>
+            </tr>
+                <tr>
+                <td>15</td>
+                <td>Ayesha</td>
+                <td> Muhammad idrees</td>
+                <td>05-03-2001</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>kadar</td>
+                <td> Muhammad Haneef</td>
+                <td>03-09-2001</td>
+            </tr>
+                <tr>
+                <td>17</td>
+                <td>Sehar</td>
+                <td> Muhammad mushtaq</td>
+                <td>04-08-2001</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Farwa</td>
+                <td> Muhammad iqbal</td>
+                <td>06-03-2002</td>
+            </tr>
+                <tr>
+                <td>19</td>
+                <td>Mafia</td>
+                <td> Muhammad nisar</td>
+                <td>07-04-2005</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Faiza</td>
+                <td> Muhammad bawar</td>
+                <td>09-04-2002</td>
+            </tr>
+                <tr>
+                <td>21</td>
+                <td>samiya</td>
+                <td> Muhammad Arif</td>
+                <td>03-09-2007</td>
+            </tr>
+            <tr>
+                <td>22</td>
+                <td>Rida</td>
+                <td> Muhammad muneer</td>
+                <td>07-03-2004</td>
+            </tr>
+                <tr>
+                <td>23</td>
+                <td>Kinza</td>
+                <td> Muhammad Altaf</td>
+                <td>06-09-2007</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Suman</td>
+                <td> Muhammad nawaz</td>
+                <td>09-02-2008</td>
+            </tr>
+                <tr>
+                <td>25</td>
+                <td>Awais</td>
+                <td> Muhammad Arif</td>
+                <td>08-05-2003</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Hadiqa</td>
+                <td> Muhammad Arshad</td>
+                <td>03-06-2005</td>
+            </tr>
+                <tr>
+                <td>27</td>
+                <td>Eman</td>
+                <td> Muhammad Akram</td>
+                <td>02-06-2006</td>
+            </tr>
+            <tr>
+                <td>28</td>
+                <td>Guriya</td>
+                <td> Muhammad shahid</td>
+                <td> 02-06-2003</td>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>Ehtsham</td>
+                <td>Muhammad gulfam</td>
+                <td> 04-05-2008</td>
+            </tr>
+            <tr>
+                <td>30</td>
+                <td>Atiya</td>
+                <td> Muhammad Bawar</td>
+                <td>07-06-2000</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>Bia</td>
+                <td> Muhammad idrees</td>
+                <td>05-06-1989</td>
+            </tr>
+             <tr>
+                <td>32</td>
+                <td>saba fatima</td>
+                <td> Muhammad nawaz</td>
+                <td>05-06-1971</td>
+            </tr>
+               <tr>
+                <td>33</td>
+                <td>nimra</td>
+                <td> Muhammad Akbar</td>
+                <td>05-06-1977</td>
+            </tr>
+            <tr>
+                <td>34</td>
+                <td>sajida</td>
+                <td> Muhammad Azam</td>
+                <td>05-06-1978</td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td>sajida</td>
+                <td> Muhammad muneer</td>
+                <td>05-06-1979</td>
+            </tr>
+            <tr>
+                <td>36</td>
+                <td>sajida</td>
+                <td>Muhammad shakeel</td>
+                <td>05-06-1979</td>
+            </tr>
+            <tr>
+                <td>37</td>
+                <td>sajida</td>
+                <td>Muhammad Asghar</td>
+                <td>05-06-1976</td>
+            </tr>
+            <tr>
+                <td>38</td>
+                <td>sajida</td>
+                <td>Muhammad Rahmat</td>
+                <td>05-06-1973</td>
+            </tr>
+            <tr>
+                <td>39</td>
+                <td>sajida</td>
+                <td>Muhammad Altaf</td>
+                <td>05-06-1975</td>
+            </tr>
+            <tr>
+                <td>40</td>
+                <td>sajida</td>
+                <td>Muhammad Ahmad</td>
+                <td>05-06-1977</td>
+            </tr>
+            <tr>
+                <td>41</td>
+                <td>sajida</td>
+                <td>Muhammad Afzal</td>
+                <td>05-06-1979</td>
+            </tr>
+            <tr>
+                <td>42</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul manan</td>
+                <td>05-06-1976</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>sajida</td>
+                <td> Muhammad Tahir</td>
+                <td>05-06-1972</td>
+            </tr>
+            <tr>
+                <td>44</td>
+                <td>sajida</td>
+                <td>Muhammad Rafique</td>
+                <td>05-06-1988</td>
+            </tr>
+            <tr>
+                <td>45</td>
+                <td>sajida</td>
+                <td>Muhammad Gulam nabi</td>
+                <td>05-06-1987</td>
+            </tr>
+            <tr>
+                <td>46</td>
+                <td>sajida</td>
+                <td>Muhammad mushtaq</td>
+                <td>05-06-1989</td>
+            </tr>
+            <tr>
+                <td>47</td>
+                <td>sajida</td>
+                <td> Muhammad shokat</td>
+                <td>05-06-1983</td>
+            </tr>
+            <tr>
+                <td>48</td>
+                <td>sajida</td>
+                <td> Muhammad  Rahmat</td>
+                <td>05-06-1982</td>
+            </tr>
+            <tr>
+                <td>49</td>
+                <td>sajida</td>
+                <td> Muhammad Ata-Ullah</td>
+                <td>05-06-1981</td>
+            </tr>
+            <tr>
+                <td>50</td>
+                <td>sajida</td>
+                <td>Muhammad Muneer</td>
+                <td>05-06-1999</td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>sajida</td>
+                <td>Muhammad Nisar</td>
+                <td>05-06-1991</td>
+            </tr>
+            <tr>
+                <td>52</td>
+                <td>sajida</td>
+                <td>Muhammad Ajmal</td>
+                <td>05-06-1998</td>
+            </tr>
+            <tr>
+                <td>53</td>
+                <td>sajida</td>
+                <td>Muhammad Khalid</td>
+                <td>05-06-1993</td>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td>sajida</td>
+                <td>Muhammad Jameel</td>
+                <td>05-06-1994</td>
+            </tr>
+            <tr>
+                <td>55</td>
+                <td>sajida</td>
+                <td>Muhammad Tariq</td>
+                <td>05-06-1995</td>
+            </tr>
+            <tr>
+                <td>56</td>
+                <td>sajida</td>
+                <td> Muhammad Abdul Raheed</td>
+                <td>05-06-1998</td>
+            </tr>
+            <tr>
+                <td>57</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1999</td>
+            </tr>
+            <tr>
+                <td>58</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1965</td>
+            </tr>
+            <tr>
+                <td>59</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1966</td>
+            </tr>
+            <tr>
+                <td>60</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1967</td>
+            </tr>
+            <tr>
+                <td>61</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1969</td>
+            </tr>
+            <tr>
+                <td>62</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1988</td>
+            </tr>
+            <tr>
+                <td>63</td>
+                <td>sajida</td>
+                <td> Muhammad Abdul Raheed</td>
+                <td>05-06-1999</td>
+            </tr>
+            <tr>
+                <td>64</td>
+                <td>sajida</td>
+                <td>Abdul Raheed</td>
+                <td>05-06-1998</td>
+            </tr>
+            <tr>
+                <td>65</td>
+                <td>sajida</td>
+                <td> Muhammad Abdul Raheed</td>
+                <td>05-06-1987</td>
+            </tr>
+            <tr>
+                <td>66</td>
+                <td>sajida</td>
+                <td> Muhammad Abdul Raheed</td>
+                <td>05-06-1979</td>
+            </tr>
+            <tr>
+                <td>67</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1978</td>
+            </tr>
+            <tr>
+                <td>68</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1977</td>
+            </tr>
+            <tr>
+                <td>69</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1976</td>
+            </tr>
+            <tr>
+                <td>70</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1975</td>
+            </tr>
+            <tr>
+                <td>71</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1974</td>
+            </tr>
+            <tr>
+                <td>72</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1973</td>
+            </tr>
+            <tr>
+                <td>73</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1972</td>
+            </tr>
+            <tr>
+                <td>74</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1971</td>
+            </tr>
+            <tr>
+                <td>75</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1978</td>
+            </tr>
+            <tr>
+                <td>76</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1979</td>
+            </tr>
+            <tr>
+                <td>77</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1988</td>
+            </tr>
+            <tr>
+                <td>78</td>
+                <td>sajida</td>
+                <td>Muhammad Abdul Raheed</td>
+                <td>05-06-1989</td>
+            </tr>
+            <tr>
+                <td>79</td>
+                <td>sajida</td>
+                <td> Muhammad Raheed</td>
+                <td>05-06-1990</td>
+            </tr>
+            <tr>
+                <td>80</td>
+                <td>Hamza</td>
+                <td> Muhammad Nawaz</td>
+                <td>05-06-1991</td>
+            </tr>
+
+         <tr>
+                <td>81</td>
+                <td>Bisma</td>
+                <td>Muhammad nawaz</td>
+                <td>05-06-1992</td>
+            </tr>
+             <tr>
+                <td>82</td>
+                <td>Kashaf</td>
+                <td>Muhammad ismail</td>
+                <td>05-06-1993</td>
+            </tr>
+             <tr>
+                <td>83</td>
+                <td>Areeba</td>
+                <td>Muhammad khawar</td>
+                <td>05-06-1978</td>
+            </tr>
+             <tr>
+                <td>84</td>
+                <td>Saman</td>
+                <td>Muhammad Gulfam</td>
+                <td>05-06-1977</td>
+            </tr>
+             <tr>
+                <td>85</td>
+                <td>Sidra</td>
+                <td> Muhammad Altaf</td>
+                <td>05-06-1976</td>
+            </tr>
+             <tr>
+                <td>86</td>
+                <td>Sehar</td>
+                <td>Muhammad Altaf</td>
+                <td>05-06-1975</td>
+            </tr>
+             <tr>
+                <td>87</td>
+                <td>Ayesha</td>
+                <td>Muhammad Ashraf</td>
+                <td>05-06-1972</td>
+            </tr>
+             <tr>
+                <td>88</td>
+                <td>Neelam</td>
+                <td>Muhammad Muneer</td>
+                <td>05-06-1975</td>
+            </tr>
+             <tr>
+                <td>89</td>
+                <td>sahil</td>
+                <td> Muhammad Akram</td>
+                <td>05-06-1976</td>
+            </tr>
+             <tr>
+                <td>90</td>
+                <td>Yasir</td>
+                <td>Muhammad Tanveer </td>
+                <td>05-06-1977</td>
+            </tr> <tr>
+                <td>91</td>
+                <td>Umair</td>
+                <td> Muhammad Nawaz</td>
+                <td>05-06-1978</td>
+            </tr> <tr>
+                <td>92</td>
+                <td>Ahsan</td>
+                <td>Muhammad salman</td>
+                <td>05-06-1979</td>
+            </tr> <tr>
+                <td>93</td>
+                <td>hassan</td>
+                <td>Muhammad nabeel</td>
+                <td>05-06-1980</td>
+            </tr> <tr>
+                <td>94</td>
+                <td>Wahab</td>
+                <td>Muhammad idrees</td>
+                <td>05-06-1981</td>
+            </tr> <tr>
+                <td>95</td>
+                <td>Gulfam</td>
+                <td> Muhammad Akram</td>
+                <td>05-06-1982</td>
+            </tr> <tr>
+                <td>96</td>
+                <td>Arslan</td>
+                <td> Muhammad Tariq</td>
+                <td>05-06-1983</td>
+            </tr> <tr>
+                <td>97</td>
+                <td>Kashaf</td>
+                <td> Muhammad Ashraf</td>
+                <td>05-06-1988</td>
+            </tr>
+             <tr>
+                <td>98</td>
+                <td>noveed</td>
+                <td> Muhammad Raheed</td>
+                <td>05-06-1989</td>
+            </tr>
+             <tr>
+                <td>99</td>
+                <td>Usman</td>
+                <td> Muhammad Hasham</td>
+                <td>03-06-1988</td>
+            </tr> <tr>
+                <td>100</td>
+                <td>Asad</td>
+                <td>Muhammad Altaf</td>
+                <td>05-08-1999</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
